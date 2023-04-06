@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "lms-fastapi"
+version = "0.1.0"
+description = ""
+authors = ["therollingambit <therollingambit@gmail.com>"]
+readme = "README.md"
+packages = [{include = "lms_fastapi"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+uvicorn = "^0.21.1"
+fastapi = "^0.95.0"
+pydantic = "^1.10.7"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
