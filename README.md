@@ -18,3 +18,7 @@
 op.add_column('users', sa.Column('role', sa.Enum('teacher', 'student', name='role'), nullable=True))
 ```
 - take note of sqlalchemy Enums in migration file
+
+## SQLAlchemy
+- check docs for syntax for versions >= 1.4 to use async
+- need to use async compatible driver (asyncpg for postgres)
